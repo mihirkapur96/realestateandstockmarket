@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet">
+    <a href="index.html">Click here to go back to the Home Page</a>
+</head>
+<body>
+    <h1>SIGN UP</h1>
+    <form action="actionpage.py" target="_blank" method="post">
+        <input type="text" name="First Name" placeholder="First Name">
+        <input type="text" name="Last Name" placeholder="Last Name"><br>
+        Male: <input type="radio" name="gender" value="Male"><br>
+        Female: <input type="radio" name="gender" value="Female"><br>
+        Other: <input type="radio" name="gender" value="Other"><br>
+        <input type="date" name="dob"><br>
+        <input type="checkbox" name="age" value="Above 21 years old">I am above 21 years old<br>
+        <input type="checkbox" name="age" value="Less than 21 years old">I am less than 21 years old<br>
+        <select name="place">
+            <option value="place1">California</option>
+            <option value="place2">New York</option>
+            <option value="place3">Florida</option>
+            <option value="place4">Ohio</option>
+            <option value="place5">Alabama</option>
+            <option value="place6">Massachussets</option>
+            <option value="place7">Nevada</option>
+        </select> <br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </br>
+    </form>
+    <p>
+       OR<br>
+       <i>If already have an account with us</i>
+    </br>
+    </p>
+    <h4>LOG IN</h4>
+    <form action="actionpage.py" method="post">
+        <input type="text" name="Email" placeholder="Write your Email"><br>
+        <input type="password" name="pwd" placeholder="Password"><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset"></br>
+
+    </form>
+</body>
+</html>
