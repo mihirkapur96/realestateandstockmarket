@@ -20,8 +20,8 @@ ul{
 ol{
     list-style-type: lower-roman;
 }
-tr:hover{color: lightblue;}
-tr:nth-child(even){color: lightgray;}
+tr:hover{background-color: lightblue;}
+tr:nth-child(even){background-color: lightgray;}
 table,th,td{
     border: 1px solid;color: black;
 }
